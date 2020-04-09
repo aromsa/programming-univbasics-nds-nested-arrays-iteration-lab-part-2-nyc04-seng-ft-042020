@@ -18,9 +18,10 @@ while row_index < src.count do
     # binding.pry
   end
  element_index += 1
- min_array << min
+ #min_array << min
 end
   row_index += 1
+  min_array << min
 end
 #min_array << min
 min_array
