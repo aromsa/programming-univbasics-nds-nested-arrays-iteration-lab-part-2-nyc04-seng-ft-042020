@@ -22,6 +22,7 @@ end
  min_array << min
   row_index += 1
 end
+min_array << min
 min_array
 end
 
