@@ -15,12 +15,12 @@ while row_index < src.count do
        src[row_index][element_index] < min
        min = src[row_index][element_index]
       # min_array << min
-    element_index += 1
     # binding.pry
   end
-  min_array << min
-  row_index += 1
+ element_index += 1
 end
+ min_array << min
+  row_index += 1
 end
 min_array
 end
